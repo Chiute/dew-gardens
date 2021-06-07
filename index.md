@@ -1,37 +1,137 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html>
+<head>
 
-You can use the [editor on GitHub](https://github.com/Chiute/dew-gardens/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Nothing+You+Could+Do&display=swap" rel="stylesheet">
+  
+<meta charset=utf-8/>
+<title>Dew Gardens</title>
 
-### Markdown
+<style>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+	.container{
+		width:100%;
+	}	
+	
+	body{
+		font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+		background-color:#f5f2e9;
+		color: black;
+		margin: 0px;
+		padding: 0px;
+		margin-bottom: 50px;
+		font-size: 16px;
+		line-height: 1.5;
+	}
 
-```markdown
-Syntax highlighted code block
+	a{
+		color: black;
+		text-decoration: underline;
+	}
 
-# Header 1
-## Header 2
-### Header 3
+	.header{
+		width: 100%;
+		text-align: center;
+		font-family: "Open Sans Condensed","Open Sans", sans-serif;
+		color: white;
+		padding-top: 8px;
+		padding-bottom: 15px;
+		background-image: url(https://i.postimg.cc/Fs7g97Zv/pexels-kristina-paukshtite-712876.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: top;
+		height: 300px;
+	}
 
-- Bulleted
-- List
+	
+	h1{
+		font-family: 'Nothing You Could Do', cursive, sans-serif;
+		margin-top: 100px;
+		margin-bottom: 2px;
+		line-height: 54px;
+		font-size:64px;
+		text-shadow: 0px 0px 10px black;
+	}
 
-1. Numbered
-2. List
+	h2{
+		font-family: 'Montserrat', sans-serif;
+		font-size:22px;
+		margin-top: 0px;
+		text-shadow: 0px 0px 7px black;
+	}
 
-**Bold** and _Italic_ and `Code` text
+	.nav{
+		padding: 15px 0px;
+		font-size: 15px;
+		line-height: 15px;
+		text-align: center;
+		font-weight: bold;
+		margin-bottom: 20px;
+		margin-bottom: 0px;
+		justify-content: space-between;
+	}
 
-[Link](url) and ![Image](src)
-```
+	.nav-pills li a {
+		color: black;
+		text-decoration: none;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		margin-right: 15px;
+	}
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+	.nav li a:hover{
+		color: #63615f;
+	}
 
-### Jekyll Themes
+	main{
+		padding-top: 30px;
+		text-align: justify;
+		text-indent:2.5em;
+	}
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Chiute/dew-gardens/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+</style>
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+</head>
+
+<body>
+
+	<script src="js/bootstrap.min.js"></script>
+
+<div class="container">
+	<!--Navigation-->
+
+	<ul class="nav nav-pills">
+		<li><a href="#">History of gardening</a></li>
+		<li><a href="#">Types</a></li>
+		<li><a href="#">Social aspects</a></li>
+		<li><a href="#">Benefits of gardening</a></li>
+		<li><a href="#">Garden ornaments</a></li>
+		<li><a href="#">Garden pests</a></li>
+	</ul>
+</div>
+
+
+	<!--Header-->
+	<div class="header">
+		<div class="container">
+			<h1>Dew Gardens</h1>
+			<h2>Guide to modern gardening</h2>
+		</div>
+	</div>
+
+
+<div class="container">
+<main>
+	<p>Gardening is the practice of growing and cultivating plants as part of <a href="https://en.wikipedia.org/wiki/Horticulture">horticulture</a>. In gardens, ornamental plants are often grown for their flowers, foliage, or overall appearance; useful plants, such as root vegetables, leaf vegetables, fruits, and herbs, are grown for consumption, for use as dyes, or for medicinal or cosmetic use.</p>
+
+	<p>Gardening ranges in scale from <em>fruit orchards</em>, to long <em>boulevard plantings</em> with one or more different types of shrubs, trees, and herbaceous plants, to <em>residential back gardens</em> including lawns and foundation plantings, and to <em>container gardens</em> grown inside or outside. Gardening may be very specialized, with only one type of plant grown, or involve a variety of plants in mixed plantings. It involves an active participation in the growing of plants, and tends to be labor-intensive, which differentiates it from farming or forestry.</p>
+</main>
+
+</div>
+
+</body>
+</html>
